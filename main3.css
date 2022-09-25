@@ -1,0 +1,92 @@
+@import url(reset.css);
+
+body{
+   background-image: url(Images/kosmos-zvezdy.jpg);
+   background-size: cover;
+}
+
+ .earth{
+    width: 380px;
+    height: 380px;
+   top: 0;
+   bottom: 0;
+   right: 0;
+   left: 0;
+   margin: auto;
+   position: absolute;
+   transform:rotateZ(0deg) rotateY(0deg) rotateX(-70deg);
+ }
+
+.orbita{
+   z-index:1;
+   width: 550px;
+   height: 550px;
+   top: 0;
+   bottom: 0;
+   right: 0;
+   left: 0;
+   margin: auto;
+   position: absolute;
+   border: 2px solid #d1d1d136;
+   border-radius: 50%;
+   transform-style: preserve-3d;
+   transform: rotateX(70deg) rotateY(0deg) rotateZ(0deg);
+}
+
+.moon{
+   width: 60px;
+   height: 60px;
+   top: 0;
+   bottom: 0;
+   right: 0;
+   left: 0;
+   margin: auto;
+   background: url(Images/—Pngtree—grey\ moon\ beautiful\ illustration_4549389.png) no-repeat;
+   position: absolute;
+   background-size: auto 100px;
+   background-position: center;
+   overflow: hidden;
+transform: rotateZ(0deg) translate(274px) rotateY(0deg) rotateX(0deg);
+animation: moon_run 5s infinite;
+animation-timing-function: linear;
+border-radius: 50%;
+
+}
+
+@keyframes moon_run {
+   0%{
+transform: rotateZ(0deg) translate(272px) rotateY(90deg) rotateX(90deg) ;
+   }
+   25%{ box-shadow:100px -31px 23px -30px rgb(62 62 62 / 5%) inset;
+      
+   }
+   50%{
+      box-shadow: -75px -31px 20px -50px rgba(62, 62, 62, 0.65) inset;
+      transform: rotateZ(180deg) translate(272px) rotateY(90deg) rotateX(270deg);
+   }
+   75%{
+      box-shadow: -100px -31px 23px -20px rgba(62, 62, 62, 0.65) inset;
+   }
+   85%{
+      box-shadow: 80px -31px 23px -20px rgba(62, 62, 62, 0.65) inset;
+   }
+   100%{
+      box-shadow:  40px -31px 23px -30px rgba(62, 62, 62, 0.20) inset;
+      transform: rotateZ(360deg) translate(272px) rotateY(90deg) rotateX(450deg);
+   }
+}
+
+.moon:hover{
+animation-play-state: paused;
+}
+
+   .moonhov{
+      min-width: 200px;
+      min-height: 50px;
+float: left;
+margin-left: calc(50% - 170px);
+color: wheat;
+border:2px dotted white ;
+padding: 5px;
+margin-top: 40px;
+   }

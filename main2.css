@@ -1,0 +1,161 @@
+@import url(reset.css);
+
+body{
+    background-color: gainsboro;
+}
+
+.Cont-rad{
+    width: 400px;
+    height: 35px;
+    position: absolute;
+    right: 0;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.rad{
+width: 20px;
+height: 20px;
+border-radius: 50%;
+animation: pulse 2s infinite;
+}
+
+@keyframes pulse{
+    0%{
+        box-shadow: 0 0 0 0 ;
+        
+    }
+    75%{
+        box-shadow: 0 0 0 12px transparent ;
+    }
+}
+
+
+.white{
+    background-color: white;
+    animation: white 2s infinite;
+     
+}
+@keyframes white{
+   0%{
+       box-shadow: 0 0 0 0 white;
+       
+   }
+   75%{
+       box-shadow: 0 0 0 12px transparent ;
+   }
+}
+.darkblue{
+   background: #2f4e9c;
+   animation:arkblue 2s infinite;
+
+}
+@keyframes arkblue{
+   0%{
+      box-shadow: 0 0 0 0 #2f4e9c;
+      
+  }
+  75%{
+      box-shadow: 0 0 0 12px transparent ;
+  }
+}
+.red{
+    background-color: red;
+    animation:arkblue 2s infinite;
+}
+@keyframes arkblue{
+   0%{
+      box-shadow: 0 0 0 0 #2f4e9c;
+      
+  }
+  75%{
+      box-shadow: 0 0 0 12px transparent ;
+  }
+}
+
+.orange{
+    background-color: orangered;
+    animation:orangered 2s infinite;
+}
+@keyframes orangered{
+   0%{
+      box-shadow: 0 0 0 0 orangered;
+      
+  }
+  75%{
+      box-shadow: 0 0 0 12px transparent ;
+  }
+}
+
+.orange2{
+
+    background-color:orange ;
+    animation:orange 2s infinite;
+}
+@keyframes orange{
+   0%{
+      box-shadow: 0 0 0 0 orange;
+      
+  }
+  75%{
+      box-shadow: 0 0 0 12px transparent ;
+  }
+}
+
+.blue{
+    background-color: blue;
+    animation:blue 2s infinite;
+}
+@keyframes blue{
+   0%{
+      box-shadow: 0 0 0 0 blue;
+      
+  }
+  75%{
+      box-shadow: 0 0 0 12px transparent ;
+  }
+}
+.green{
+     background-color: lightgreen;
+     animation:lightgreen 2s infinite;
+}
+@keyframes lightgreen{
+   0%{
+      box-shadow: 0 0 0 0 lightgreen;
+      
+  }
+  75%{
+      box-shadow: 0 0 0 12px transparent ;
+  }
+}
+.violet{
+    background-color: violet;
+    animation:violet 2s infinite;
+}
+@keyframes violet{
+   0%{
+      box-shadow: 0 0 0 0 violet;
+      
+  }
+  75%{
+      box-shadow: 0 0 0 12px transparent ;
+  }
+}
+.black{
+    background-color: black;
+    animation:black 2s infinite;
+}
+
+@keyframes black{
+   0%{
+      box-shadow: 0 0 0 0 black;
+      
+  }
+  75%{
+      box-shadow: 0 0 0 12px transparent ;
+  }
+}
