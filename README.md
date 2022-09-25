@@ -1,1 +1,1 @@
-# vlad-sem-frontend-anim
+# vlad-sem-frontend-anim.github.io
